@@ -34,6 +34,10 @@ header {
     text-decoration: none;
 }
 
+.nav-links a:hover{
+    color: #ffec70;
+}
+
 .toggle-btn {
     display: none;
     font-size: 1.5em;
@@ -57,14 +61,19 @@ section {
 }
 
 .about {
-    background: white;
+    background: #ffec70;
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
 
-.about p {
+.about ul {
+    padding-left: 0;
+}
+
+.about li {
     font-size: 1.1rem;
+    margin: 1rem;
 }
 
 .projects {
@@ -74,7 +83,7 @@ section {
 }
 
 .project {
-    background: white;
+    background: #ffec70;
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
