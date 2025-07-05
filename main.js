@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Typing Animation
-const texts = ["Welcome to my website!", "Frontend Developer", "BCA Student at Manipal University", "Open to Freelancing Work"];
+const texts = ["Welcome to my website!", "Open to Freelancing Work"];
 let count = 0, index = 0, currentText = '', letter = '';
 
 function type() {
