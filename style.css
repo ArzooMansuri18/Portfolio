@@ -87,8 +87,48 @@ section {
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    animation: projectflow 0.7s ease-in-out 1;
 }
 
+.project:nth-child(1){
+    animation-delay: 0.1s;
+}
+
+.project:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.project:nth-child(3){
+    animation-delay: 0.3s;
+}
+
+.project:nth-child(4){
+    animation-delay: 0.4s;
+}
+
+.project:nth-child(5){
+    animation-delay: 0.5s;
+}
+
+.project:nth-child(6){
+    animation-delay: 0.6s;
+}
+
+.project:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+@keyframes projectflow {
+    from{
+        top: 0;
+        left: -100%;
+    }
+    to{
+        top: 0;
+        left: 0;
+    }
+}
 .project h3 {
     margin: 0 0 0.5em;
 }
