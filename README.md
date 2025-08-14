@@ -4,8 +4,7 @@ Welcome to my portfolio repository! I'm **Arzoo Mansuri**, a frontend developer 
 
 ##  Demo & Live Version
 *(Optional)*  
-You can view the live version [here](#) or check out the demo below:  
-*(Insert screenshot or GIF for immediate impact)*
+You can view the live version here (https://arzoomansuri18.github.io/Portfolio/) or check out the demo below:  
 
 ##  Table of Contents
 - [About the Project](#about-the-project)  
