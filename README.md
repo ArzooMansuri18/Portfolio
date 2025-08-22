@@ -2,8 +2,7 @@
 
 Welcome to my portfolio repository! I'm **Arzoo Mansuri**, a frontend developer (Student) passionate about crafting sleek, responsive, and interactive web experiences using **HTML**, **CSS**, and **JavaScript**.
 
-##  Demo & Live Version
-*(Optional)*  
+##  Demo & Live Version 
 You can view the live version here (https://arzoomansuri18.github.io/Portfolio/) or check out the demo below:  
 
 ##  Table of Contents
