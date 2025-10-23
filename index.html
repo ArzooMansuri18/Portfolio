@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arzoo Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Arzoo</span>
+            </div>
+
+            <div class="links">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#projects">Projects</a></div>
+                <div class="link"><a href="#">Blog</a></div>
+                <div class="contact-btn">Contact Me</div>
+            </div>
+            
+            <img src="icons8-hamburger-menu.svg" class="hamburg" onclick="hamburg()">
+        </div> 
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Me</a>
+                <img src="icons8-cross-30.png" class="cancel" onclick="cancel()">
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="main-container">
+            <div class="image">
+                <img src="Ghibli.pic.jpg">
+            </div>
+            
+            <div class="content">
+                <h1>Hey I'm <span>Arzoo</span></h1>
+                <div class="typewriter">I'm a <span></span></div>
+                <p>Welcome to my portfolio! I love exploring the world of web development and experimenting with creative design ideas. Every project I build is a chance to learn something new and push my skills further. I enjoy crafting websites that are not just functional, but also visually engaging. Dive in to see some of the projects I've brought to life!</p>
+
+                <div class="btn">
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section>
+        <div class="skills-container" id="skills">
+            <h1>My Skills</h1>
+            <div class="skill-card">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React.js</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">Express.js</div>
+                <div class="skill">Mongo DB</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about-container" id="about">
+            <h1>About Me</h1>
+            <div class="about-card">
+                <p>Hi, I'm Arzoo Mansuri, a passionate Frontend Developer with hands-on experience in HTML, CSS, and JavaScript. I enjoy turning creative ideas into interactive web projects and constantly learning new technologies to enhance my skills. I have built multiple mini projects like digital clocks, image sliders, and dynamic forms that showcase my problem-solving abilities. My goal is to create clean, user-friendly interfaces that provide great user experiences. I'm always excited to take on new challenges and grow as a web developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="project-container" id="projects">
+            <h1>My Projects</h1>
+            <div class="cards-section">
+
+                <div class="card_container">
+                    <div class="photo-container">
+                        <img src="studysync-img.png" id="card-pic">
+                    </div>
+                    <div class="details">
+                        <div class="description-box">
+                            <h2>StudySync</h2>
+                            <p>A beautiful clone of StudySync website.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href=" https://arzoomansuri18.github.io/StudySync-Clone/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 1 -->
+                <div class="card_container">
+                    <div class="photo-container">
+                        <img src="blogapp.png" id="card-pic">
+                    </div>
+                    <div class="details">
+                        <div class="description-box">
+                            <h2>Blog Page</h2>
+                            <p>A blog website using flexbox and grid.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href=" https://arzoomansuri18.github.io/Blog-App/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card_container">
+                    <div class="photo-container">
+                        <img src="recipebook.png" id="card-pic">
+                    </div>
+                    <div class="details">
+                        <div class="description-box">
+                            <h2>Recipe book</h2>
+                            <p>A recipe book website for your kitchen.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://arzoomansuri18.github.io/The-Recipe-Book/">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-container" id="contact">
+            <div class="social-icons">
+                <p>Contact Me!</p>
+                <div class="social-links">
+                    <a href="https://github.com/ArzooMansuri18"><img src="github_1051326.png"></a>
+                    <a href="https://www.linkedin.com/in/arzoo-mansuri-406413338/"><img src="linkedin_2582545.png"></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><img src="envelope_4946005.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Arzoo Mansuri, Incl, Pvt.Ltd</p>
+    </footer>
+    
+</body>
+</html>
