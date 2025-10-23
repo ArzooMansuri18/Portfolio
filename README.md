@@ -46,14 +46,6 @@ open index.html
 
 <em>Or launch via a live server extension for HMR.</em>
 
-**Project Structure**
-
-Portfolio/
-│
-├── index.html       # Main landing page
-├── style.css        # Stylesheet for layout and design
-└── main.js          # JavaScript for interactivity
-
 **Upcoming Enhancements**
 
 <ul>
