@@ -20,7 +20,7 @@ This is my personal portfolio website showcasing my frontend development skills.
 ##  Features
 - Clean, minimal design  
 - Fully responsive layout  
-- Smooth navigation (if applicable: e.g., scrolling, hamburger menu)  
+- Smooth navigation  
 - Interactive UI elements using vanilla JavaScript
 
 ##  Technologies Used
@@ -31,14 +31,12 @@ This is my personal portfolio website showcasing my frontend development skills.
 ##  Setup & Usage
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/ArzooMansuri18/Portfolio.git
-
    
+   git clone https://github.com/ArzooMansuri18/Portfolio.git
+ 
 2. Navigate into the project directory:
 
 cd Portfolio
-
 
 3. Open index.html in your browser:
 
