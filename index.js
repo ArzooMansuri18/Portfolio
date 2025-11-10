@@ -9,3 +9,14 @@ function cancel(){
     navbar.style.transform = "translateY(-500px)";
     navbar.style.display = "none";
 }
+
+const btn = document.querySelector("#downloadBtn");
+
+btn.addEventListener("click", ()=> {
+    const link = document.createElement("a");
+    link.href = "Arzoo-Resume.pdf";
+    link.download = "Arzoo-Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
