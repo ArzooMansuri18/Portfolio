@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arzoo Mansuri · Web Developer &amp; BCA Student</title>
+  <meta name="description"
+    content="Portfolio of Arzoo Mansuri, a BCA student and aspiring web developer who builds beautiful, interactive and user-friendly websites." />
+  <meta name="theme-color" content="#FFF9F7" />
+
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Navigation ===== -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Arzoo Mansuri, home">
+        <span class="logo-heart" aria-hidden="true">♡</span> Arzoo<span class="logo-dot">.</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-talk"><span aria-hidden="true">✉</span> Let's Talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 id="hero-title">Arzoo Mansuri</h1>
+          <p class="hero-role">Web Developer &amp; Creative Problem Solver</p>
+          <p class="hero-intro">
+            I'm a BCA student passionate about building beautiful, interactive and user-friendly web experiences.
+            I love turning creative ideas into functional websites using code.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Explore My Work <span aria-hidden="true">→</span></a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="blob blob-1" aria-hidden="true"></div>
+          <div class="blob blob-2" aria-hidden="true"></div>
+
+          <!-- Your portrait: swap arzoo-portrait.webp for another image any time (best at a 3:4 ratio) -->
+          <figure class="portrait">
+            <img src="InShot_20261110_121630626.png" alt="Portrait of Arzoo Mansuri" width="960" height="1580"
+              fetchpriority="high" decoding="async" />
+          </figure>
+
+          <span class="float f-heart-1" aria-hidden="true">♥</span>
+          <span class="float f-heart-2" aria-hidden="true">♡</span>
+          <span class="float f-heart-3" aria-hidden="true">♥</span>
+          <span class="float f-star-1" aria-hidden="true">★</span>
+          <span class="float f-star-2" aria-hidden="true">✦</span>
+          <span class="float f-spark-1" aria-hidden="true">✧</span>
+          <span class="float f-spark-2" aria-hidden="true">✦</span>
+          <span class="float f-flower-1" aria-hidden="true">✿</span>
+          <span class="float f-flower-2" aria-hidden="true">❀</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="section-tag">About</p>
+          <h2 class="section-title" id="about-title">A Little About Me ♡</h2>
+          <p>
+            Hi! I'm Arzoo, a BCA student and aspiring Web Developer. I enjoy creating interactive websites,
+            experimenting with frontend technologies and learning new things through practical projects.
+          </p>
+          <p>
+            I believe every website should not only work beautifully but also create a memorable user experience.
+          </p>
+        </div>
+
+        <ul class="info-grid" role="list">
+          <li class="info-card reveal" data-tint="pink">
+            <span class="info-icon" aria-hidden="true">🎓</span>
+            <h3>Education</h3>
+            <p>Bachelor of Computer Applications (BCA)</p>
+          </li>
+          <li class="info-card reveal" data-tint="lavender">
+            <span class="info-icon" aria-hidden="true">💻</span>
+            <h3>Role</h3>
+            <p>Web Developer</p>
+          </li>
+          <li class="info-card reveal" data-tint="peach">
+            <span class="info-icon" aria-hidden="true">🎀</span>
+            <h3>Interests</h3>
+            <p>Frontend Development, UI Design, Creative Coding</p>
+          </li>
+          <li class="info-card reveal" data-tint="cream">
+            <span class="info-icon" aria-hidden="true">🌱</span>
+            <h3>Currently Learning</h3>
+            <p>Advanced JavaScript and Web Development</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <span class="deco deco-a" aria-hidden="true">✿</span>
+      <span class="deco deco-b" aria-hidden="true">✦</span>
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag">Skills</p>
+          <h2 class="section-title" id="skills-title">Things I Love Working With ✿</h2>
+        </header>
+
+        <div class="skill-groups">
+          <article class="skill-group reveal" data-tint="pink">
+            <h3><span aria-hidden="true">🌸</span> Frontend</h3>
+            <ul class="chips" role="list">
+              <li class="chip"><span class="chip-icon" aria-hidden="true">&lt;/&gt;</span> HTML5</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">{ }</span> CSS3</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">JS</span> JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal" data-tint="lavender">
+            <h3><span aria-hidden="true">💜</span> Programming</h3>
+            <ul class="chips" role="list">
+              <li class="chip"><span class="chip-icon" aria-hidden="true">C</span> C</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">C++</span> C++</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal" data-tint="peach">
+            <h3><span aria-hidden="true">✨</span> Other Interests</h3>
+            <ul class="chips" role="list">
+              <li class="chip"><span class="chip-icon" aria-hidden="true">📱</span> Responsive Web Design</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">🧩</span> DOM Manipulation</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">🎨</span> UI Development</li>
+              <li class="chip"><span class="chip-icon" aria-hidden="true">🪄</span> Interactive Web Experiences</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <span class="deco deco-c" aria-hidden="true">♡</span>
+      <span class="deco deco-d" aria-hidden="true">★</span>
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag">Projects</p>
+          <h2 class="section-title" id="projects-title">Little Things I've Built ♡</h2>
+          <p class="section-sub">A collection of my experiments, creative ideas and coding projects.</p>
+        </header>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects by category" id="filters"></div>
+        <p class="sr-only" id="filterStatus" role="status" aria-live="polite"></p>
+
+        <div class="project-grid" id="projectGrid">
+          <noscript>
+            <p>Please enable JavaScript to see my projects.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-card reveal">
+        <div class="contact-info">
+          <p class="section-tag">Contact</p>
+          <h2 class="section-title" id="contact-title">Let's Create Something Together ♡</h2>
+          <p>Have an idea, project or opportunity? I'd love to hear from you!</p>
+
+          <ul class="socials" role="list">
+            <li><a href="https://github.com/ArzooMansuri18" class="social" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub (placeholder link)"><span aria-hidden="true">🐙</span> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/arzoo-mansuri-406413338/" class="social" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn (placeholder link)"><span aria-hidden="true">💼</span>
+                LinkedIn</a></li>
+            <li><a href="mailto:arzoomansuri45@gmail.com" class="social" aria-label="Email (placeholder address)"><span
+                  aria-hidden="true">💌</span> Email</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate action="mailto:arzoomansuri45@gmail.com" method="post"
+          enctype="text/plain">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required />
+            <span class="error" id="nameError" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required />
+            <span class="error" id="emailError" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea>
+            <span class="error" id="messageError" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message <span aria-hidden="true">♡</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-made">Made with ♡ and lots of code by Arzoo Mansuri.</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-links" role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="footer-social" role="list">
+        <li><a href="https://github.com/ArzooMansuri18" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub">🐙</a></li>
+        <li><a href="https://www.linkedin.com/in/arzoo-mansuri-406413338/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">💼</a></li>
+        <li><a href="mailto:arzoomansuri45@gmail.com" aria-label="Email">💌</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
